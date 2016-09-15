@@ -29,6 +29,8 @@ gem 'simple_form'
 
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -54,6 +56,12 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+
+  gem 'interactive_editor'
+
+  gem 'awesome_print'
+
+  gem 'hirb'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
