@@ -31,6 +31,10 @@ gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 
 gem 'devise'
 
+gem 'kaminari', :git => 'git@github.com:amatsuda/kaminari.git'
+
+gem 'jquery-turbolinks'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
